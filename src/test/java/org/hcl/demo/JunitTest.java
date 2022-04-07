@@ -44,13 +44,7 @@ public class JunitTest  {
 	  WebElement login = driver.findElement(By.id("login"));
 	b.btnClick(login);
 }
-   @Before
-   
-   public void before() {
-	  
-
-}
-   
+    
 	@AfterClass
   public static void afterClass() {
 		
