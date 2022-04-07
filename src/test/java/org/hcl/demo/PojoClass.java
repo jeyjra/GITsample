@@ -10,7 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 		  PageFactory.initElements(driver,this);  
 	}
 	  
-	@FindBy(id="username")
 	  private WebElement username;
 	@FindBy(id="password")
 	  private WebElement password;
