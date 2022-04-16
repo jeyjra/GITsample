@@ -12,7 +12,7 @@ public class SampleClass1 {
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
 	
-		BaseClass1 b = new BaseClass1();
+		BaseClass1 b   = new BaseClass1();
 		
 		WebDriver driver = b.lanchBrowser();
 		b.lanchUrl("https://adactinhotelapp.com/");
